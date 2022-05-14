@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="apod">
-        <form id="entrada">
-            <input type="data" id="recebeData">
-        </form>
-        <button id="enviar">Enviar</button>
+    <div id="container">
+        <div id="apod">
+            <form id="formData" name="formData">
+                <input type="date" name="inputDate" id="inputDate">
+                <button type="submit" id="btnSubmit">Enviar</button>
+            </form>
+        </div>
+        <div id="return">
+        </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./index.js"></script>
   </body>
