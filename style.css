@@ -1,0 +1,22 @@
+body {
+    background-image:url("space.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form, footer{
+    background-color: rgba(255,255,255,0.9);
+    padding:30px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: #fff;
+    transition: 1.1s;
+  }
+
+  button:hover{
+    cursor: pointer;
+    font-size: 1rem;
+  }
