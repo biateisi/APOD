@@ -4,19 +4,37 @@ body {
     background-size: cover;
 }
 
-form, footer{
-    background-color: rgba(255,255,255,0.9);
+#apod {
+    background-color: rgba(255,255,255,0.8);
     padding:30px;
+    display: inline-block;
+}
+
+#rodape {
+    width: 100vw;
+    background-color: rgba(0,0,0,1);
+    position: fixed;
+    color: white;
+    bottom: 0;
+}
+
+#rodape p {
+    padding: 0 8px;
+}
+
+#return {
+    padding: 10px;
+}
+
+.imgNasa {
+    max-width: 600px;
+    height: auto;
+    border: solid 1px black;
+    border-radius: 3px;
 }
 
 button {
     padding: 0.5rem 1rem;
     background-color: black;
     color: #fff;
-    transition: 1.1s;
-  }
-
-  button:hover{
-    cursor: pointer;
-    font-size: 1rem;
-  }
+}
