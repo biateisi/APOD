@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@600&family=Fredericka+the+Great&family=Hurricane&family=Nunito:wght@200&family=Open+Sans:wght@300;500&family=Palette+Mosaic&family=Roboto+Mono:ital,wght@1,700&family=Trispace:wght@800&display=swap" rel="stylesheet">
     <title>NASA - Astronomy Picture of the Day</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <h1>Astronomy Picture of the Day</h1>
     <div id="container">
         <div id="apod">
             <form id="formData" name="formData">
@@ -15,7 +17,13 @@
                 <input type="date" name="inputDate" id="inputDate">
                 <button type="submit" id="btnSubmit">Enviar</button>
             </form>
-            <div id="return"></div>
+            <div id="nasa">
+                <div id="media"></div>
+                <div id="dados">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
         </div>
     </div>
 

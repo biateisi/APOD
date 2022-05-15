@@ -1,13 +1,25 @@
 body {
-    background-image:url("space.jpeg");
+    background-image: url("space.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Trispace', sans-serif;
+}
+
+h1{
+    font-family: 'Blinker', sans-serif;
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+}
+
+#container {
+    padding-bottom: 30px;
 }
 
 #apod {
     background-color: rgba(255,255,255,0.8);
-    padding:30px;
-    display: inline-block;
+    padding: 30px;
 }
 
 #rodape {
@@ -20,6 +32,7 @@ body {
 
 #rodape p {
     padding: 0 8px;
+    text-align: justify;
 }
 
 #return {
@@ -27,10 +40,14 @@ body {
 }
 
 .imgNasa {
-    max-width: 600px;
-    height: auto;
+    max-width: 100%;
     border: solid 1px black;
     border-radius: 3px;
+}
+
+.videoNasa {
+    width: 560px;
+    height: 315px;
 }
 
 button {
@@ -38,3 +55,20 @@ button {
     background-color: black;
     color: #fff;
 }
+
+/*-------*/
+
+#nasa {
+    display: none;
+    padding-top: 22px;
+}
+
+#nasa #media {
+    flex: 1;
+}
+
+#nasa #dados {
+    flex: 1;
+    margin-left: 22px;
+}
+
