@@ -23,8 +23,11 @@ O Objetvido deste projeto é desenvolver uma aplicação capaz de realizar uma r
 
 ## Escopo
 A aplicação deve ser capaz de receber uma data como entrada do usuário a partir de um formulário.
+
 ● Com a data selecionada, ao clicar no botão de envio, uma requisição deve ser enviada à [API da APOD](https://api.nasa.gov/planetary/apod ) para que seja obtida a foto ou vídeo referente ao dia escolhido.
+
 ● A página deve ser manipulada para que os dados retornados sejam devidamente exibidos.
+
 ● A aplicação deve, obrigatoriamente, ter um repositório no Github, estar disponível em uma Githubpage e utilizar jQuery
 
 ## Tecnologias e Linguagens
